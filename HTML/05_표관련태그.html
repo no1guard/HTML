@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <style>
+     table{
+    
+        border-color:thistle;
+        text-align:center;
+     }
+     h1{
+        text-align: center;
+     }
+     
+    </style>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>표 관련 기본 태그 </h1>
+
+    <h3>table(표) 태그</h3>
+    <pre>
+        -웹 문서에서 자료(데이터)정리를 위해 사용하는 태그
+        -table 태그는 행 열 을 작성하기 위한 공간을 나타냄 
+    </pre>
+    <h3>table tr(table row) 태그 </h3>
+    <pre>
+         -테이블의 한 행을 나타내는 태그
+    </pre>
+    <h3>table td(Table Data) 태그 </h3>
+    <pre>
+         -한 행의 한열을 나타내는 태그
+         액셀에서 셀 하나
+    </pre>
+    <hr>
+    <h4>테이블 연습1</h4>
+    <!-- 
+        border : 테이블의 두께를 지정 
+        1이 가장 최솟값 숫자가 올라갈수록 두꺼워짐 
+        style : border - collapse : 
+        테이블 테두리가 겹치지 않도록 설정 
+        깔끔하게 표시 
+
+     -->
+    <table border="1" style="border-collapse: collapse;" >
+        <tr>
+            <td>이름</td>
+            <td>나이</td>
+            <td>주소</td>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>20</td>
+            <td>서울시 강남구</td>
+        </tr>
+        <tr>
+            <td>김미영</td>
+            <td>22</td>
+            <td>서울시 서초구</td>
+        </tr>
+
+    </table>
+    <table border="1" >
+        <tr>
+            <td>이름</td>
+            <td>연락처</td>
+            <td>이메일</td>
+        </tr>
+        <tr>
+            <td>동그라미</td>
+            <td>010-0000-0000</td>
+            <td>one@around.com</td>
+        </tr>
+        <tr>
+            <td>엄세모</td>
+            <td>010-4444-4444</td>
+            <td>time@trie.com</td>
+        </tr>
+        <tr>
+            <td>각네모</td>
+            <td>010-7777-7777</td>
+            <td>sq@sq.sq</td>
+        </tr>
+    </table>
+<hr>
+    <table border="1">
+        <tr>
+            <td style="background-color:tomato;">음식</td>
+            <td style="background-color:tomato;">가격</td>
+        </tr>
+        <tr>
+            <td style="background-color:silver;">피자</td>
+            <td style="background-color:silver;">10,000</td>
+        </tr>
+        <tr>
+            <td style="background-color:silver;">햄버거</td>
+            <td style="background-color:silver;">80,000</td>
+        </tr>
+        <tr>
+            <td style="background-color:silver;">치킨</td>
+            <td style="background-color:silver;">20,000</td>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
