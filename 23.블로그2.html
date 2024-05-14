@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <title>두 번째 블로그</title>
     <style>
-        
+        body{
+            text-align: center;
+            margin: 0 auto;
+            background-color: blanchedalmond;
+        }
+        .컨테이너{
+            margin: 0 auto;
+            width: 50%;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 80px rgb(230, 54, 54);
+        }
+        .비디오꾸미기{
+            
+            margin: 0 auto; /*상하 좌우 여백을 자동으로 설정*/
+            border-radius: 200px;
+            width:70%;
+            display: block;/* 가운데 전체 차지를 함으로 써 정렬 */
+        }
+
     </style>
 </head>
 <body>
+    <div class="컨테이너">
+        <h1>두 번째 블로그</h1>
+        <h2> 첫 번째 포스트 : 비디오 추가하기</h2>
+        <p>면 한 사발 드시죠 여름에는 저희 블로그와 함께해요 &#128513</p>
+        <video class="비디오꾸미기" autoplay muted>
+            <source src="../비디오들/210534_small.mp4" type="video/mp4">
+        </video>
+    </div>
     
 </body>
 </html>
